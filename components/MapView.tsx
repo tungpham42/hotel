@@ -35,8 +35,8 @@ export default function MapView({
     >
       <MapContainer
         center={center as LatLngExpression}
-        zoom={15}
-        style={{ height: "600px", width: "100%" }}
+        zoom={14}
+        style={{ height: "420px", width: "100%" }}
         zoomControl={false}
       >
         <TileLayer
